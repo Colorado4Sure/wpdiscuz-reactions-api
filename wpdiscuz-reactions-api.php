@@ -4,7 +4,7 @@
  * Plugin Name: WPDiscuz Reactions API
  * Description: REST API endpoints for wpDiscuz comment likes and dislikes — integrates directly with wpDiscuz vote table for consistency.
  * Version: 1.0.0
- * Author: Colorado Akpan
+ * Author: PopNaija LTD
  * License: GPL2+
  */
 
