@@ -55,11 +55,11 @@ Retrieve total likes and dislikes for a specific comment.
 
 **Endpoint**
 
-    GET /wp-json/wpdiscuz-react/v1/comment/{comment_id}/reactions
+    GET /wp-json/wpdiscuz-react/v2/comment/{comment_id}/reactions
 
 **Example**
 
-    curl https://example.com/wp-json/wpdiscuz-react/v1/comment/42/reactions
+    curl https://example.com/wp-json/wpdiscuz-react/v2/comment/42/reactions
   Response
   
     {
@@ -73,7 +73,7 @@ Retrieve total likes and dislikes for a specific comment.
 
 Endpoint
 
-    POST /wp-json/wpdiscuz-react/v1/comment/{comment_id}/vote
+    POST /wp-json/wpdiscuz-react/v2/comment/{comment_id}/vote
 Body
 
     {
@@ -106,7 +106,7 @@ By default, routes are public:
 
     import axios from "axios";
     
-    const API_URL = "https://example.com/wp-json/wpdiscuz-react/v1";
+    const API_URL = "https://example.com/wp-json/wpdiscuz-react/v2";
     
     export const getReactions = async (commentId) => {
       const res = await axios.get(`${API_URL}/comment/${commentId}/reactions`);
